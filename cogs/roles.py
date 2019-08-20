@@ -179,7 +179,7 @@ class Role_Distribution(commands.Cog):
         await msg.delete()
 
     @iam.command(name="artist")
-    async def iam_sketchdaily(self, ctx):
+    async def iam_artist(self, ctx):
         """
         - Gives the Artist role
         """
@@ -202,7 +202,7 @@ class Role_Distribution(commands.Cog):
         await msg.delete()
 
     @iam.command(name="producer")
-    async def iam_sketchdaily(self, ctx):
+    async def iam_producer(self, ctx):
         """
         - Gives the Producer role
         """
@@ -225,7 +225,7 @@ class Role_Distribution(commands.Cog):
         await msg.delete()
 
     @iam.command(name="writer")
-    async def iam_sketchdaily(self, ctx):
+    async def iam_writer(self, ctx):
         """
         - Gives the Writer role
         """
@@ -397,7 +397,7 @@ class Role_Distribution(commands.Cog):
         await msg.delete()
 
     @iamnot.command(name="artist")
-    async def iamnot_sketchdaily(self, ctx):
+    async def iamnot_artist(self, ctx):
         """
         - Removes the Artist role
         """
@@ -420,7 +420,7 @@ class Role_Distribution(commands.Cog):
         await msg.delete()
 
     @iamnot.command(name="producer")
-    async def iamnot_sketchdaily(self, ctx):
+    async def iamnot_producer(self, ctx):
         """
         - Removes the Producer role
         """
@@ -443,7 +443,7 @@ class Role_Distribution(commands.Cog):
         await msg.delete()
 
     @iamnot.command(name="writer")
-    async def iamnot_sketchdaily(self, ctx):
+    async def iamnot_writer(self, ctx):
         """
         - Removes the Writer role
         """
